@@ -1,0 +1,183 @@
+header {
+    align-items: center; /*  alinea los elementos en el centro verticalmente. */
+    justify-content: space-evenly; /*  se encarga de distribuir el espacio disponible de manera uniforme entre los elementos flexibles, o sea el felxbox */
+    position: fixed; 
+    display: flex;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    padding: 0px 10px;
+    background-color: #CBF0FD;
+    border: 1px #fff;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.imagenlogo{
+    width: 100px;
+    height: auto;
+}
+.imglupa{
+    height: 30px;
+    width: auto;
+}
+header a img{
+    width: 30px;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    background-color: #21618C;
+    width: 100%;
+}
+.navsup {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: "Didot", serif;
+}
+nav.navsup {
+    margin-top: 70px;
+}
+.navsup a {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 4px;
+    background-color: #CBF0FD;
+}
+section.sectionform {
+    font-family: "American Typewriter", serif;
+    background-color: #CBF0FD;
+    border: 2px solid black;
+    border-radius: 15px 0px 15px 0px;
+    padding: 10px;
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.sectioncards{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.cards {
+    background-color: #CBF0FD;
+    padding: 10px;
+    width: fit-content;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.itemtabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+.imgcard {
+    width: auto;
+    height: 200px;
+}
+.conttabla{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fila {
+    text-align: center;
+}
+  
+.fila td {
+    border: 1px solid black;
+    padding: 5px;
+}
+.linkelem {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.tablaperiodica td {
+    padding: 0;
+    position: relative;
+}
+.linkelem:hover {
+    background-color: #031FA2;
+    color: white;
+}
+
+
+.botonRegresar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Didot", serif;
+}
+.botonRegresar a{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 4px;
+    background-color: #3eecaf;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+  .video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    background-color: #CBF0FD;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+.navinf {
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    margin-bottom: 5px;
+}
+.navinf a {
+    margin-left: 5px;
+}
+.navinf a img {
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+    margin-right: 8px;
+}
+
+.imglogout{
+    width: 30px;
+    height: 30px;
+}

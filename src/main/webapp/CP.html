@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilos.css">
+        <title>Ciencias Naturales</title>
+    </head>
+
+    <body>
+        <header>
+            <span>
+                <img class="imagenlogo" src="IMG/logo-8.png" alt="Logo">
+            </span>
+            <span>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100094344060756"><img src="IMG/fb.webp" alt="Red Social 1" ></a>
+                <a target="_blank" href="https://twitter.com/solocienciaUTP"><img src="IMG/tw.webp" alt="Red Social 2" ></a>
+                <a target="_blank" href="https://www.instagram.com/solocienciautp/"><img src="IMG/insta.png" alt="Red Social 3"></a>
+            </span>
+            <span>
+                <a target="_blank" href="https://www.google.com"><img class="imglupa" src="IMG/busqueda.png" alt="imgbusqueda"></a>
+            </span>
+        </header>
+            <nav class="navsup">
+                <a href="HOME.html">HOME</a>
+                <a href="CCN.html">CURSO DE CIENCIAS NATURALES</a>
+                <a href="CQB.html">CURSO DE QUÍMICA Y BIOLOGÍA</a>
+                <a href="CP.html">CURSO DE PROGRAMACIÓN</a>
+                <a href="referencias.html">REFERENCIAS</a>
+                <a href="nosotros.html">CONTÁCTANOS</a>
+            </nav>
+          
+        <!-- Contenido del body -->
+        <section class="sectionform">
+            <form method="post" action="cp.jsp">
+                <h2 class="tituloform">Curso de Programación</h2>
+                
+                <div class="labelnombre">
+                    <label for="nombre">Nombre del participante:</label>
+                    <br>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+        
+                <div class="labelcedula">
+                    <label for="cedula">Cédula:</label>
+                    <br>
+                    <input type="text" id="cedula" name="cedula" required>
+                </div>
+        
+                <p class="tituloradio">Fecha de preferencia:</p>
+                <input type="radio" id="fecha1" name="fecha" value="20 de julio" required>
+                <label for="fecha1">20 de julio</label><br>
+                <input type="radio" id="fecha2" name="fecha" value="24 de octubre" required>
+                <label for="fecha2">24 de octubre</label><br>
+                <input type="radio" id="fecha3" name="fecha" value="14 de noviembre" required>
+                <label for="fecha3">14 de noviembre</label><br><br>
+        
+                <button clas="botonenviar" type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section class="botonRegresar">
+            <a href="HOME.html">Regresar</a>
+        </section> 
+        
+        <footer>
+            <span class="navinf">
+                <a class="imglogo" href="HOME.html"><img src="IMG/home.png" alt="iconohome"></a>
+                <a class="imglogo" href="CCN.html"><img src="IMG/naturales.png" alt="icononat"></a>
+                <a class="imglogo" href="CQB.html"><img src="IMG/ciencias.png" alt="iconoquim"></a>
+                <a class="imglogo" href="CP.html"><img src="IMG/prog.png" alt="iconoprog"></a>
+                <a class="imglogo" href="referencias.html"><img src="IMG/referencias.png" alt="iconoref"></a>
+                <a class="imglogo" href="nosotros.html"><img src="IMG/contactos.png" alt="iconocont"></a>
+                <spam class="derechos">ALL RIGHTS RESERVED</spam>
+                <a href="login.html"><img class="imglogout" src="IMG/logout.png" alt="iconologout"></a>
+            </span>
+        </footer>
+    </body>
+  </html>

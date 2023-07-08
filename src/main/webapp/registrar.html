@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Pagina de registro</title>
+</head>
+<body>
+  <header>
+    <span>
+        <img class="imagenlogo" src="IMG/logo-8.png" alt="Logo">
+    </span>
+    <span>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100094344060756"><img src="IMG/fb.webp" alt="Red Social 1" ></a>
+        <a target="_blank" href="https://twitter.com/solocienciaUTP"><img src="IMG/tw.webp" alt="Red Social 2" ></a>
+        <a target="_blank" href="https://www.instagram.com/solocienciautp/"><img src="IMG/insta.png" alt="Red Social 3"></a>
+    </span>
+    <span>
+        <a target="_blank" href="https://www.google.com"><img class="imglupa" src="IMG/busqueda.png" alt="imgbusqueda"></a>
+    </span>
+</header>
+  
+  <!-- Contenido del body -->
+  <div class="container">
+    <img src="https://github.com/Kyoukko/Programacion-Software-II/blob/main/Logos/logo-8.png?raw=true" alt="Logo" class="logo_login">
+    <h1>Registrate!</h1>
+    <form method="post" action="registro.jsp">
+      <label for="username">Nombre de usuario:</label>
+      <input type="text" id="username" name="username" placeholder="Crea tu nombre..." required>
+      <label for="lastname">Apellido:</label>
+      <input type="text" id="lastname" name="lastname" placeholder="Crea tu apellido..." required>
+      <label for="age">Edad:</label>
+      <input type="number" id="number" name="age" min="0" max="120" placeholder="Ingresa tu edad..." required>
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" placeholder="Crea tu contraseña..." required>
+      
+      <input type="submit" value="Crear cuenta">
+    </form>
+  </div>
+  <div>
+    <p id="parraf">ya tienes una cuenta?</p>
+    <a href="login.html" id="boton_logeo">Inicia sesion</a>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <span class="navinf">
+        <a class="imglogo" href="nosotros.html"><img src="IMG/contactos.png" alt="iconocont"></a>
+        <spam class="derechos">ALL RIGHTS RESERVED</spam>
+        <a href="#"><img class="imglogout" src="IMG/logout.png" alt="iconologout"></a>
+    </span>
+</footer>
+      
+</body>
+</html>
