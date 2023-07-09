@@ -13,6 +13,10 @@ header {
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+.title{
+	font-family: 'Roboto', sans-serif;
+}
+
 .imagenlogo{
     width: 100px;
     height: auto;
@@ -65,6 +69,7 @@ section.sectionform {
     align-items: center;
     text-align: center;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    color: #21618C;
 }
 .sectioncards{
     display: flex;
@@ -189,3 +194,30 @@ footer {
     font-weight: bold;
     color: white;
   }
+    .link_to_reg1 { /* boton que se dirige a la pagina registrarse desde la pagina de error */
+    /*width: 95%;*/
+    padding: 10px;
+    text-align: center;
+    background-color: #22618C;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Didot", serif;
+    font-size: 16px;
+  }
+
+  .link_to_reg1 a{ /*afecta unicamente a los enlaes de la clase*/
+    display: inline-block;
+    margin: 0 70px;
+  }
+
+  .link_to_reg1:hover {
+    background-color: #2C447A;
+    color: #FFFFFF;
+  }
+
+  #incorrecto { /* color del titulo incorrecto*/
+    color: rgb(138, 28, 28);
+  }
+
